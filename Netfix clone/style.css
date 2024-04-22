@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    color:rgba(255,255,255,1);
+    text-align: center;
+    font-family: sans-serif;
+}
+.main{
+    height: 80vh;
+    background-image: url(netback.jpg);
+    background-size:max(1200px,100vw);
+    font-weight: 900px;
+}
+.cover{
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    opacity: 0.6;
+    background-color: black;
+    text-align: center;
+    line-height: 40px;
+    z-index: 1;
+}
+.nav{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80vw;
+    padding: auto;
+    margin: auto;
+    z-index: 2;
+    height: 40px;
+}
+.btn{
+    display: flex;
+    justify-content: end;
+    margin: 10px;
+}
+#lan{
+    margin: 0 20px 0 0;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    border: 2px solid white;
+    border-radius: 2%;
+}
+#sign{
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
+#get{
+    background-color: red;
+    font-size: 10px;
+    padding: 10px 5px 10px 5px;
+    border-radius: 5px;
+}
+#email{
+    height: 6vh;
+    background-color: black;
+    color: white;
+}
+.name{
+    position: relative;
+    color:rgba(255,255,255,1);
+    top: 200px;
+    z-index: -1;
+}
+.sec2{
+    line-height: 50px;
+    text-align: center;
+}
+#download{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height:15vh;
+    width: 40vw;
+    margin: 10px 0 10px 30vw;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+body{
+    background-color: black;
+}
+.over{
+    position: relative;
+}
+.vid{
+    position: relative;
+    bottom:450px;
+    z-index: -1;
+}
+.tv{
+    position: relative;
+}
+.tvideo{
+    position: relative;
+    bottom: 400px;
+    z-index: -1;
+}
+.one{
+    height:100vh;
+    text-align: center;
+    line-height: 50px;
+}
+.FAQ{
+    font-family: sans-serif;
+}
+.ques{
+    display: block;
+    width: 95vw;
+    padding: 24px;
+    margin: 20px;
+    background-color: rgb(43, 43, 43);
+    color: white;
+    text-align: left;
+    font-size: 24px;
+}
+#heading{
+    font-size: 48px;
+}
+.exp{
+   display: none;
+    height: 10vh;
+    width: 95vw;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(43, 43, 43);
+}
